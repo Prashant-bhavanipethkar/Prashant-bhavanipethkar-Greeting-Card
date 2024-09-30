@@ -1,0 +1,114 @@
+.font-family{
+    font-family: sans-serif;
+}
+
+.h1-font-size{
+    font-size: 70px;
+}
+
+.h2-font-size{
+    font-size: 40px;
+}
+
+.h1-font-family{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+}
+
+.p1-font-size{
+    font-size: 25px;
+}
+
+.p1-font-family{
+    font-family: sans-serif;
+}
+
+#color1{
+    color: orange;
+}
+
+#color2{
+    color: orange;
+}
+
+.text-centre{
+    text-align: center;
+}
+
+.card-title-size{
+    font-size: 20px;
+}
+
+.font-family{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-------For Small screens Users--------*/
+
+
+@media screen and (max-width: 600px) {
+
+    .h1-font-size{
+        font-size: 20px;
+    }
+
+    .p1-font-size{
+        font-size: 12px;
+    }
+
+    .h2-font-size{
+        font-size: 20px;
+    }
+
+    .card-title-size{
+        font-size: 12px;
+    }
+    
+  }
+
+
+ /*-------For Mobile Users--------*/
+
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+    .h1-font-size{
+        font-size: 35px;
+    }
+
+    .p1-font-size{
+        font-size: 15px;
+    }
+
+    .h2-font-size{
+        font-size: 30px;
+    }
+
+    .card-title-size{
+        font-size: 12px;
+    }
+    
+  }
+
+  
+  /*-------For Tablet Users--------*/
+
+
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+
+    .h1-font-size{
+        font-size: 40px;
+    }
+
+    .p1-font-size{
+        font-size: 20px;
+    }
+
+    .h2-font-size{
+        font-size: 35px;
+    }
+
+    .card-title-size{
+        font-size: 14px;
+    }
+  }

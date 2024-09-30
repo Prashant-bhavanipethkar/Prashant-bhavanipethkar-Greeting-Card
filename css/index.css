@@ -1,0 +1,816 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 2px solid rgb(227, 227, 227);
+}
+
+.logo-container{
+   
+}
+
+.logo{
+    height: 100px;
+    position: relative;
+    right: 10px;
+}
+
+.categories-container{
+    position: relative;
+    top: 25px;
+    width: 750px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login{
+    position: relative;
+    top: 25px;
+    right: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.text{
+    background-color: rgb(45, 162, 94);
+    height: 20px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.text:hover{
+    background-color: rgb(35, 111, 14);
+}
+
+.search-icon{
+    height: 22px;
+    position: relative;
+    top: 30px;
+    left: -60px;
+    padding: 10px 10px;
+    
+}
+
+.search-icon:hover{
+    cursor: pointer;
+    position: relative;
+
+}
+
+.section-1{
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    width: 12   00px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    padding: 10px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+
+}
+
+.wedding-card{
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
+}
+
+.explore-container{
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 900px;
+    height: 500px;
+    padding: 20px;
+    margin: 0px auto;
+    margin-top: 90px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+}
+
+.wedding-container{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin-bottom: 150px;
+    
+}
+
+.invite-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 800px;
+    margin: 0px auto;
+    position: relative;
+    top: -100px;
+
+}
+
+.invite{
+    background-color: orange;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: 20px;
+
+}
+
+.footer-container{
+    background-color: rgb(245, 245, 245);
+    border-top: 2px solid rgb(138, 138, 138);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+
+
+}
+
+.wedding{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 110px;
+}
+
+.Birthday{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 110px;
+}
+
+.Baby{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 110px;
+}
+
+.Greeting-Cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 110px;
+}
+
+.border-right{
+    border-right: 2px solid rgb(137, 137, 137);
+    padding-right:30px;
+    height: 50px;
+    
+}
+
+.logo-container1{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    margin: 0px auto;
+    
+
+}
+
+.fb{
+    height:25px;
+    padding-bottom: 100px;
+}
+
+
+/*---- For small screen users----*/
+
+@media screen and (max-width: 600px) {
+
+    .header-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0px;
+        padding: 0px;
+        border-bottom: 2px solid rgb(227, 227, 227);
+    }
+    
+    .logo-container{
+       
+    }
+    
+    .logo{
+        height: 60px;
+        position: relative;
+        right: 10px;
+    }
+    
+    .categories-container{
+        position: relative;
+        top: 15px;
+        width: 400px;
+        height: 35px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .login{
+        position: relative;
+        top: 15px;
+        right: 10px;
+        height: 35px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    .text{
+        background-color: rgb(45, 162, 94);
+        font-size: 10px;
+        height: 10px;
+        padding: 5px 10px;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .text:hover{
+        background-color: rgb(35, 111, 14);
+    }
+    
+    .search-icon{
+        height: 15px;
+        position: relative;
+        top: 15px;
+        left: -10px;
+        padding: 10px 10px;
+        
+    }
+    
+    .search-icon:hover{
+        cursor: pointer;
+        position: relative;
+    
+    }
+
+
+    .wedding-card{
+     height: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
+    }
+
+    .explore-container{
+        background-color: rgb(234, 234, 234);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 300px;
+        height: 300px;
+        padding: 5px;
+        margin: 0px auto;
+        margin-top: 30px;
+        margin-bottom: 150px;
+        border-radius: 10px;
+    }
+
+    .position{
+        position: relative;
+        top: -140px;
+
+    }
+
+    .invite-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 200px;
+        height: 120px;
+        margin: 0px auto;
+        margin-bottom: 5px;
+        position: relative;
+        top: -100px;
+    
+    }
+
+    .invite{
+        background-color: orange;
+        color: white;
+        padding: 10px 40px;
+        border-radius: 30px;
+        font-size: 10px;
+    
+    }
+
+    .section-1{
+        background-color: rgb(234, 234, 234);
+        display: flex;
+        width: 12   00px;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px auto;
+        padding: 10px;
+        margin-top: 60px;
+        margin-bottom: 150px;
+    
+    }
+
+    .footer-container{
+        background-color: rgb(245, 245, 245);
+        border-top: 2px solid rgb(138, 138, 138);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 20px;
+    
+    
+    }
+    
+    .wedding{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70px;
+        font-size: 10px;
+    }
+    
+    .Birthday{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70px;
+        font-size: 10px;
+    }
+    
+    .Baby{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70px;
+        font-size: 10px;
+    }
+    
+    .Greeting-Cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70px;
+        font-size: 10px;
+    }
+    
+    .border-right{
+        border-right: 2px solid rgb(137, 137, 137);
+        padding-right:3px;
+        height: 10px;   
+    }
+    
+    .logo-container1{
+        display: flex;
+        justify-content: space-around;
+        width: 70px;
+        margin: 0px auto;
+    
+    }
+    
+    .fb{
+        height:15px;
+        padding-bottom: 5px;
+    }
+
+    .f-g{
+        font-size: 20px;
+        position: relative;
+        top: 8px;
+        padding-bottom: 30px;
+        height: 0px;
+    }
+  }
+
+
+
+/*---- For Mobile Users----*/
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+    .header-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0px;
+        padding: 0px;
+        border-bottom: 2px solid rgb(227, 227, 227);
+    }
+    
+    .logo-container{
+       
+    }
+    
+    .logo{
+        height: 60px;
+        position: relative;
+        right: 10px;
+    }
+    
+    .categories-container{
+        position: relative;
+        top: 15px;
+        width: 400px;
+        height: 35px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .login{
+        position: relative;
+        top: 15px;
+        right: 10px;
+        height: 35px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    .text{
+        background-color: rgb(45, 162, 94);
+        font-size: 10px;
+        height: 10px;
+        padding: 5px 10px;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .text:hover{
+        background-color: rgb(35, 111, 14);
+    }
+    
+    .search-icon{
+        height: 15px;
+        position: relative;
+        top: 15px;
+        left: -10px;
+        padding: 10px 10px;
+        
+    }
+    
+    .search-icon:hover{
+        cursor: pointer;
+        position: relative;
+    
+    }
+
+
+    .wedding-card{
+     height: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
+    }
+
+    .explore-container{
+        background-color: rgb(234, 234, 234);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 400px;
+        height: 300px;
+        padding: 5px;
+        margin: 0px auto;
+        margin-top: 30px;
+        margin-bottom: 150px;
+        border-radius: 10px;
+    }
+
+    .position{
+        position: relative;
+        top: -140px;
+
+    }
+
+    .invite-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 500px;
+        margin: 0px auto;
+        position: relative;
+        top: -100px;
+    
+    }
+
+    .invite{
+        background-color: orange;
+        color: white;
+        padding: 10px 40px;
+        border-radius: 30px;
+        font-size: 10px;
+    
+    }
+
+    .section-1{
+        background-color: rgb(234, 234, 234);
+        display: flex;
+        width: 12   00px;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px auto;
+        padding: 10px;
+        margin-top: 60px;
+        margin-bottom: 150px;
+    
+    }
+
+    .footer-container{
+        background-color: rgb(245, 245, 245);
+        border-top: 2px solid rgb(138, 138, 138);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 20px;
+    
+    
+    }
+    
+    .wedding{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70px;
+        font-size: 10px;
+    }
+    
+    .Birthday{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70px;
+        font-size: 10px;
+    }
+    
+    .Baby{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70px;
+        font-size: 10px;
+    }
+    
+    .Greeting-Cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70px;
+        font-size: 10px;
+    }
+    
+    .border-right{
+        border-right: 2px solid rgb(137, 137, 137);
+        padding-right:10px;
+        height: 20px;   
+    }
+    
+    .logo-container1{
+        display: flex;
+        justify-content: space-around;
+        width: 70px;
+        margin: 0px auto;
+    
+    }
+    
+    .fb{
+        height:15px;
+        padding-bottom: 5px;
+    }
+
+    .f-g{
+        font-size: 20px;
+        position: relative;
+        top: 8px;
+        padding-bottom: 30px;
+        height: 0px;
+    }
+  }
+
+
+  /*---- For Tablet Users----*/
+
+  @media screen and (min-width: 769px) and (max-width: 992px) { 
+    
+    .header-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0px;
+        padding: 0px;
+        border-bottom: 2px solid rgb(227, 227, 227);
+    }
+    
+    .logo-container{
+       
+    }
+    
+    .logo{
+        height: 80px;
+        position: relative;
+        right: 10px;
+    }
+    
+    .categories-container{
+        position: relative;
+        top: 18px;
+        width: 500px;
+        height: 35px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .login{
+        position: relative;
+        top: 18px;
+        right: 10px;
+        height: 35px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    .text{
+        background-color: rgb(45, 162, 94);
+        font-size: 12px;
+        height: 13px;
+        padding: 5px 10px;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .text:hover{
+        background-color: rgb(35, 111, 14);
+    }
+    
+    .search-icon{
+        height: 18px;
+        position: relative;
+        top: 15px;
+        left: -10px;
+        padding: 10px 10px;
+        
+    }
+    
+    .search-icon:hover{
+        cursor: pointer;
+        position: relative;
+    
+    }
+
+
+    .wedding-card{
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
+    }
+
+    .explore-container{
+        background-color: rgb(234, 234, 234);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 500px;
+        height: 380px;
+        padding: 5px;
+        margin: 0px auto;
+        margin-top: 30px;
+        margin-bottom: 150px;
+        border-radius: 10px;
+    }
+
+    .position{
+        position: relative;
+        top: -140px;
+
+    }
+
+    .invite-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 580px;
+        margin: 0px auto;
+        position: relative;
+        top: -100px;
+    
+    }
+
+    .invite{
+        background-color: orange;
+        color: white;
+        padding: 10px 40px;
+        border-radius: 30px;
+        font-size: 14px;
+    
+    }
+
+    .section-1{
+        background-color: rgb(234, 234, 234);
+        display: flex;
+        width: 12   00px;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px auto;
+        padding: 10px;
+        margin-top: 60px;
+        margin-bottom: 150px;
+    
+    }
+
+    .footer-container{
+        background-color: rgb(245, 245, 245);
+        border-top: 2px solid rgb(138, 138, 138);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 20px;
+    
+    
+    }
+    
+    .wedding{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70px;
+        font-size: 12px;
+    }
+    
+    .Birthday{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70px;
+        font-size: 12px;
+    }
+    
+    .Baby{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70px;
+        font-size: 12px;
+    }
+    
+    .Greeting-Cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70px;
+        font-size: 12px;
+    }
+    
+    .border-right{
+        border-right: 2px solid rgb(137, 137, 137);
+        padding-right:15px;
+        height: 10px;
+        
+    }
+    
+    .logo-container1{
+        display: flex;
+        justify-content: space-around;
+        width: 100px;
+        margin: 0px auto;
+    
+    }
+    
+    .fb{
+        height:20px;
+        padding-bottom: 80px;
+    }
+
+    .f-g{
+        font-size: 23px;
+        position: relative;
+        top: 8px;
+        padding-bottom: 30px;
+    }
+  }
+
