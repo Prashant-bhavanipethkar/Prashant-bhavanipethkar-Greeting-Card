@@ -1,4 +1,6 @@
-.header-container{
+
+
+.header-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -7,17 +9,15 @@
     border-bottom: 2px solid rgb(227, 227, 227);
 }
 
-.logo-container{
-   
-}
+.logo-container {}
 
-.logo{
+.logo {
     height: 100px;
     position: relative;
     right: 10px;
 }
 
-.categories-container{
+.categories-container {
     position: relative;
     top: 25px;
     width: 750px;
@@ -28,7 +28,7 @@
     align-items: center;
 }
 
-.login{
+.login {
     position: relative;
     top: 25px;
     right: 50px;
@@ -40,7 +40,7 @@
 }
 
 
-.text{
+.text {
     background-color: rgb(45, 162, 94);
     height: 20px;
     padding: 5px 20px;
@@ -49,29 +49,29 @@
     cursor: pointer;
 }
 
-.text:hover{
+.text:hover {
     background-color: rgb(35, 111, 14);
 }
 
-.search-icon{
+.search-icon {
     height: 22px;
     position: relative;
     top: 30px;
     left: -60px;
     padding: 10px 10px;
-    
+
 }
 
-.search-icon:hover{
+.search-icon:hover {
     cursor: pointer;
     position: relative;
 
 }
 
-.section-1{
+.section-1 {
     background-color: rgb(234, 234, 234);
     display: flex;
-    width: 12   00px;
+    width: 12 00px;
     justify-content: space-around;
     align-items: center;
     margin: 0px auto;
@@ -81,19 +81,44 @@
 
 }
 
-.wedding-card{
+.wedding-card {
     height: 450px;
     border-radius: 10px;
     box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
 }
 
-.explore-container{
+.wedding-card1 {
+    height: 500px;
+    width: fit-content;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
+}
+
+.wedding-card2 {
+    height: 350px;
+    width: fit-content;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
+
+}
+
+.position {
+    position: relative;
+    top: -10px;
+
+}
+
+
+
+
+
+.explore-container {
     background-color: rgb(234, 234, 234);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 900px;
-    height: 500px;
+    height: 600px;
     padding: 20px;
     margin: 0px auto;
     margin-top: 90px;
@@ -101,16 +126,16 @@
     border-radius: 10px;
 }
 
-.wedding-container{
-    height: 500px;
+.wedding-container {
+    height: 600px;
     display: flex;
     flex-direction: column;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     margin-bottom: 150px;
-    
+
 }
 
-.invite-container{
+.invite-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -121,7 +146,7 @@
 
 }
 
-.invite{
+.invite {
     background-color: orange;
     color: white;
     padding: 10px 40px;
@@ -130,7 +155,7 @@
 
 }
 
-.footer-container{
+.footer-container {
     background-color: rgb(245, 245, 245);
     border-top: 2px solid rgb(138, 138, 138);
     display: flex;
@@ -141,91 +166,89 @@
 
 }
 
-.wedding{
+.wedding {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 110px;
 }
 
-.Birthday{
+.Birthday {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 110px;
 }
 
-.Baby{
+.Baby {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 110px;
 }
 
-.Greeting-Cards{
+.Greeting-Cards {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 110px;
 }
 
-.border-right{
+.border-right {
     border-right: 2px solid rgb(137, 137, 137);
-    padding-right:30px;
+    padding-right: 30px;
     height: 50px;
-    
+
 }
 
-.logo-container1{
+.logo-container1 {
     display: flex;
     justify-content: space-around;
     width: 150px;
     margin: 0px auto;
-    
+
 
 }
 
-.fb{
-    height:25px;
+.fb {
+    height: 25px;
     padding-bottom: 100px;
 }
+
 
 
 /*---- For small screen users----*/
 
 @media screen and (max-width: 600px) {
 
-    .header-container{
+    .header-container {
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: space-around;
         margin: 0px;
         padding: 0px;
         border-bottom: 2px solid rgb(227, 227, 227);
     }
-    
-    .logo-container{
-       
-    }
-    
-    .logo{
+
+    .logo-container {}
+
+    .logo {
         height: 60px;
         position: relative;
         right: 10px;
     }
-    
-    .categories-container{
-        position: relative;
+
+    .categories-container {
         top: 15px;
-        width: 400px;
-        height: 35px;
+        width: 80px;
+        height: 200px;
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
-    
-    .login{
+
+    .login {
         position: relative;
         top: 15px;
         right: 10px;
@@ -235,65 +258,97 @@
         justify-content: space-around;
         align-items: center;
     }
-    
-    
-    .text{
+
+
+    .text {
         background-color: rgb(45, 162, 94);
-        font-size: 10px;
+        font-size: 8px;
         height: 10px;
-        padding: 5px 10px;
+        padding: 8px 20px;
         border-radius: 20px;
         color: white;
         cursor: pointer;
     }
-    
-    .text:hover{
+
+    .text:hover {
         background-color: rgb(35, 111, 14);
     }
-    
-    .search-icon{
+
+    .search-icon {
         height: 15px;
         position: relative;
         top: 15px;
-        left: -10px;
+        left: 18px;
         padding: 10px 10px;
-        
+
     }
-    
-    .search-icon:hover{
+
+    .search-icon:hover {
         cursor: pointer;
         position: relative;
-    
+
     }
 
 
-    .wedding-card{
-     height: 200px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
+    .wedding-card {
+        height: 150px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
     }
 
-    .explore-container{
+    .wedding-card1 {
+        height: 140px;
+        width: fit-content;
+        border-radius: 5px;
+        box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
+    }
+
+    .wedding-card2 {
+        height: 90px;
+        width: fit-content;
+        border-radius: 5px;
+        box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
+    }
+
+    .explore-container {
         background-color: rgb(234, 234, 234);
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 300px;
-        height: 300px;
-        padding: 5px;
-        margin: 0px auto;
-        margin-top: 30px;
-        margin-bottom: 150px;
+        flex-direction: column;
+        width: 100px;
+        height: 400px;
         border-radius: 10px;
     }
 
-    .position{
+    .wedding-container {
+        height: 200px;
+        width: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .wedding-container1 {
+        height: 180px;
+        width: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        ;
         position: relative;
-        top: -140px;
+        top: -100px;
 
     }
 
-    .invite-container{
+
+    .position {
+        position: relative;
+        top: -10px;
+
+    }
+
+    .invite-container {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -303,101 +358,111 @@
         margin-bottom: 5px;
         position: relative;
         top: -100px;
-    
+
     }
 
-    .invite{
+    .invite {
         background-color: orange;
+        width: 50px;
+        height: 15px;
         color: white;
         padding: 10px 40px;
         border-radius: 30px;
         font-size: 10px;
-    
+
     }
 
-    .section-1{
+    .section-1 {
         background-color: rgb(234, 234, 234);
         display: flex;
-        width: 12   00px;
+        flex-direction: column;
+        width: 12 00px;
         justify-content: space-around;
         align-items: center;
         margin: 0px auto;
         padding: 10px;
         margin-top: 60px;
         margin-bottom: 150px;
-    
+
     }
 
-    .footer-container{
+    .footer-container {
         background-color: rgb(245, 245, 245);
         border-top: 2px solid rgb(138, 138, 138);
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
         padding: 20px;
-    
-    
+
+
     }
-    
-    .wedding{
+
+    .greeting-card-text {
+        margin-bottom: 40px;
+    }
+
+    .wedding {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70px;
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .Birthday {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70px;
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .Baby {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70px;
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .Greeting-Cards {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         height: 70px;
         font-size: 10px;
     }
-    
-    .Birthday{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        height: 70px;
-        font-size: 10px;
-    }
-    
-    .Baby{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        height: 70px;
-        font-size: 10px;
-    }
-    
-    .Greeting-Cards{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        height: 70px;
-        font-size: 10px;
-    }
-    
-    .border-right{
+
+    .border-right {
         border-right: 2px solid rgb(137, 137, 137);
-        padding-right:3px;
-        height: 10px;   
+        padding-right: 3px;
+        height: 10px;
     }
-    
-    .logo-container1{
+
+    .logo-container1 {
         display: flex;
         justify-content: space-around;
         width: 70px;
         margin: 0px auto;
-    
+
     }
-    
-    .fb{
-        height:15px;
+
+    .fb {
+        height: 15px;
         padding-bottom: 5px;
     }
 
-    .f-g{
+    .f-g {
         font-size: 20px;
         position: relative;
         top: 8px;
         padding-bottom: 30px;
         height: 0px;
     }
-  }
+}
 
 
 
@@ -405,26 +470,24 @@
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
 
-    .header-container{
+    .header-container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
         margin: 0px;
         padding: 0px;
         border-bottom: 2px solid rgb(227, 227, 227);
     }
-    
-    .logo-container{
-       
-    }
-    
-    .logo{
+
+    .logo-container {}
+
+    .logo {
         height: 60px;
         position: relative;
         right: 10px;
     }
-    
-    .categories-container{
+
+    .categories-container {
         position: relative;
         top: 15px;
         width: 400px;
@@ -434,8 +497,8 @@
         justify-content: space-around;
         align-items: center;
     }
-    
-    .login{
+
+    .login {
         position: relative;
         top: 15px;
         right: 10px;
@@ -445,9 +508,9 @@
         justify-content: space-around;
         align-items: center;
     }
-    
-    
-    .text{
+
+
+    .text {
         background-color: rgb(45, 162, 94);
         font-size: 10px;
         height: 10px;
@@ -456,40 +519,76 @@
         color: white;
         cursor: pointer;
     }
-    
-    .text:hover{
+
+    .text:hover {
         background-color: rgb(35, 111, 14);
     }
-    
-    .search-icon{
+
+    .search-icon {
         height: 15px;
         position: relative;
         top: 15px;
         left: -10px;
         padding: 10px 10px;
-        
+
     }
-    
-    .search-icon:hover{
+
+    .search-icon:hover {
         cursor: pointer;
         position: relative;
-    
+
+    }
+
+    .wedding-container {
+        height: 200px;
+        width: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .wedding-container1 {
+        height: 180px;
+        width: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+
     }
 
 
-    .wedding-card{
-     height: 200px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
+    .wedding-card {
+        height: 200px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
     }
 
-    .explore-container{
+    .wedding-card1 {
+        height: 140px;
+        width: fit-content;
+        border-radius: 5px;
+        box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
+    }
+
+    .wedding-card2 {
+        height: 130px;
+        width: fit-content;
+        border-radius: 5px;
+        box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
+       
+    }
+
+
+
+    .explore-container {
         background-color: rgb(234, 234, 234);
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         width: 400px;
-        height: 300px;
+        height: 200px;
         padding: 5px;
         margin: 0px auto;
         margin-top: 30px;
@@ -497,13 +596,14 @@
         border-radius: 10px;
     }
 
-    .position{
+
+    .position {
         position: relative;
-        top: -140px;
+        top: -10px;
 
     }
 
-    .invite-container{
+    .invite-container {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -511,108 +611,108 @@
         margin: 0px auto;
         position: relative;
         top: -100px;
-    
+
     }
 
-    .invite{
+    .invite {
         background-color: orange;
         color: white;
         padding: 10px 40px;
         border-radius: 30px;
         font-size: 10px;
-    
+
     }
 
-    .section-1{
+    .section-1 {
         background-color: rgb(234, 234, 234);
         display: flex;
-        width: 12   00px;
+        width: 12 00px;
         justify-content: space-around;
         align-items: center;
         margin: 0px auto;
         padding: 10px;
         margin-top: 60px;
         margin-bottom: 150px;
-    
+
     }
 
-    .footer-container{
+    .footer-container {
         background-color: rgb(245, 245, 245);
         border-top: 2px solid rgb(138, 138, 138);
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         padding: 20px;
-    
-    
+
+
     }
-    
-    .wedding{
+
+    .wedding {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         height: 70px;
         font-size: 10px;
     }
-    
-    .Birthday{
+
+    .Birthday {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         height: 70px;
         font-size: 10px;
     }
-    
-    .Baby{
+
+    .Baby {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         height: 70px;
         font-size: 10px;
     }
-    
-    .Greeting-Cards{
+
+    .Greeting-Cards {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         height: 70px;
         font-size: 10px;
     }
-    
-    .border-right{
+
+    .border-right {
         border-right: 2px solid rgb(137, 137, 137);
-        padding-right:10px;
-        height: 20px;   
+        padding-right: 10px;
+        height: 20px;
     }
-    
-    .logo-container1{
+
+    .logo-container1 {
         display: flex;
         justify-content: space-around;
         width: 70px;
         margin: 0px auto;
-    
+
     }
-    
-    .fb{
-        height:15px;
+
+    .fb {
+        height: 15px;
         padding-bottom: 5px;
     }
 
-    .f-g{
+    .f-g {
         font-size: 20px;
         position: relative;
         top: 8px;
         padding-bottom: 30px;
         height: 0px;
     }
-  }
+}
 
 
-  /*---- For Tablet Users----*/
+/*---- For Tablet Users----*/
 
-  @media screen and (min-width: 769px) and (max-width: 992px) { 
-    
-    .header-container{
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    .header-container {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -620,18 +720,16 @@
         padding: 0px;
         border-bottom: 2px solid rgb(227, 227, 227);
     }
-    
-    .logo-container{
-       
-    }
-    
-    .logo{
+
+    .logo-container {}
+
+    .logo {
         height: 80px;
         position: relative;
         right: 10px;
     }
-    
-    .categories-container{
+
+    .categories-container {
         position: relative;
         top: 18px;
         width: 500px;
@@ -641,8 +739,8 @@
         justify-content: space-around;
         align-items: center;
     }
-    
-    .login{
+
+    .login {
         position: relative;
         top: 18px;
         right: 10px;
@@ -652,9 +750,9 @@
         justify-content: space-around;
         align-items: center;
     }
-    
-    
-    .text{
+
+
+    .text {
         background-color: rgb(45, 162, 94);
         font-size: 12px;
         height: 13px;
@@ -663,40 +761,76 @@
         color: white;
         cursor: pointer;
     }
-    
-    .text:hover{
+
+    .text:hover {
         background-color: rgb(35, 111, 14);
     }
-    
-    .search-icon{
+
+    .search-icon {
         height: 18px;
         position: relative;
         top: 15px;
         left: -10px;
         padding: 10px 10px;
-        
+
     }
-    
-    .search-icon:hover{
+
+    .search-icon:hover {
         cursor: pointer;
         position: relative;
-    
+
+    }
+
+    .wedding-container {
+        height: 200px;
+        width: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .wedding-container1 {
+        height: 180px;
+        width: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+
     }
 
 
-    .wedding-card{
-    height: 300px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
+    .wedding-card {
+        height: 300px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
     }
 
-    .explore-container{
+    .wedding-card1 {
+        height: 140px;
+        width: fit-content;
+        border-radius: 5px;
+        box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
+    }
+
+    .wedding-card2 {
+        height: 150px;
+        width: fit-content;
+        border-radius: 5px;
+        box-shadow: 0px 0px 8px 2px rgb(173, 173, 173);
+       
+    }
+
+
+
+    .explore-container {
         background-color: rgb(234, 234, 234);
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        width: 500px;
-        height: 380px;
+        width: 400px;
+        height: 200px;
         padding: 5px;
         margin: 0px auto;
         margin-top: 30px;
@@ -704,13 +838,14 @@
         border-radius: 10px;
     }
 
-    .position{
+
+    .position {
         position: relative;
-        top: -140px;
+        top: -10px;
 
     }
 
-    .invite-container{
+    .invite-container {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -718,99 +853,98 @@
         margin: 0px auto;
         position: relative;
         top: -100px;
-    
+
     }
 
-    .invite{
+    .invite {
         background-color: orange;
         color: white;
         padding: 10px 40px;
         border-radius: 30px;
         font-size: 14px;
-    
+
     }
 
-    .section-1{
+    .section-1 {
         background-color: rgb(234, 234, 234);
         display: flex;
-        width: 12   00px;
+        width: 12 00px;
         justify-content: space-around;
         align-items: center;
         margin: 0px auto;
         padding: 10px;
         margin-top: 60px;
         margin-bottom: 150px;
-    
+
     }
 
-    .footer-container{
+    .footer-container {
         background-color: rgb(245, 245, 245);
         border-top: 2px solid rgb(138, 138, 138);
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         padding: 20px;
-    
-    
+
+
     }
-    
-    .wedding{
+
+    .wedding {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         height: 70px;
         font-size: 12px;
     }
-    
-    .Birthday{
+
+    .Birthday {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         height: 70px;
         font-size: 12px;
     }
-    
-    .Baby{
+
+    .Baby {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         height: 70px;
         font-size: 12px;
     }
-    
-    .Greeting-Cards{
+
+    .Greeting-Cards {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         height: 70px;
         font-size: 12px;
     }
-    
-    .border-right{
+
+    .border-right {
         border-right: 2px solid rgb(137, 137, 137);
-        padding-right:15px;
+        padding-right: 15px;
         height: 10px;
-        
+
     }
-    
-    .logo-container1{
+
+    .logo-container1 {
         display: flex;
         justify-content: space-around;
         width: 100px;
         margin: 0px auto;
-    
+
     }
-    
-    .fb{
-        height:20px;
+
+    .fb {
+        height: 20px;
         padding-bottom: 80px;
     }
 
-    .f-g{
+    .f-g {
         font-size: 23px;
         position: relative;
         top: 8px;
         padding-bottom: 30px;
     }
-  }
-
+}
